@@ -1,0 +1,35 @@
+<%-- 
+    Document   : Admin
+    Created on : 4 thg 1, 2022, 21:21:43
+    Author     : ADMIN
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Admin</title>
+    </head>
+    <body>
+        <div class="main-content">
+            <div class="main-content-inner">
+                <div class="breadcrumbs ace-save-state" id="breadcrumbs">
+                    <ul class="breadcrumb">
+                        <li>
+                            <i class="ace-icon fa fa-home home-icon"></i>
+                            <a href="#">Trang chủ</a>
+                        </li>
+                    </ul><!-- /.breadcrumb -->
+                </div>
+                <div class="page-content">
+                    <div class="row" >
+                        <div class="col-xs-12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.main-content -->
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+    <!-- Any urls that are excluded will never be decorated by Sitemesh -->
+    <excludes>
+        <pattern>/api*</pattern>
+    </excludes>
+    
+    <!-- apply Sitemesh default template -->
+    <decorator name="Admin" page="Admin.jsp">
+        <pattern>/Admin*</pattern>
+    </decorator>
+    
+    <decorator name="Home" page="Home.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+    <decorator name="Login" page="Login.jsp">
+        <pattern>/Login</pattern>
+    </decorator>
+</decorators>
